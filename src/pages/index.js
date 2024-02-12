@@ -6,7 +6,7 @@ function IndexPage() {
   return (
     <Layout pageTitle="Home Page">
       <p>Web Developer</p>
-      <StaticImage alt="" src="../images/background.jpg" />
+      <StaticImage alt="a group of trees covered in snow, in forest" src="../images/background.jpg" />
       <p>
         Photo by
         <a href="https://unsplash.com/@lulu09?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
