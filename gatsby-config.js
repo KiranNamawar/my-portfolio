@@ -5,5 +5,8 @@ module.exports = {
   siteMetadata: {
     siteUrl: `https://kirannamawar.tech`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
