@@ -1,10 +1,11 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import { StaticImage } from "gatsby-plugin-image";
+import Seo from '../components/seo';
 
 function IndexPage() {
   return (
-    <Layout pageTitle="Home Page">
+    <Layout pageTitle="Kiran Namawar">
       <p>Web Developer</p>
       <StaticImage alt="a group of trees covered in snow, in forest" src="../images/background.jpg" />
       <p>
@@ -21,6 +22,6 @@ function IndexPage() {
   );
 }
 
-export const Head = () => <title>Portfolio | Kiran Namawar</title>;
+export const Head = () => <Seo title="Home Page" />;
 
 export default IndexPage;
