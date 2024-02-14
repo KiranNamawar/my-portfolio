@@ -1,3 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
 .container {
   margin: auto;
   max-width: 85%;
@@ -5,7 +13,7 @@
 }
 
 .heading {
-  color: rebeccapurple;
+  color: yellow;
 }
 
 .nav-links {
@@ -19,12 +27,14 @@
 }
 
 .nav-link-text {
-  color: black;
+  color: white;
+    font-size: large;
 }
 
 .site-title {
   font-size: 3rem;
-  color: grey;
   font-weight: 700;
   margin: 2.8rem 0;
+    text-shadow: green 2px 2px;
+    color: beige;
 }
